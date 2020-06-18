@@ -14,6 +14,13 @@
 Route::get('/', function () {
     return view('home');
 });
+// Route::get('/test-route', function () {
+//     $data = DB::table('users')->get();
+
+//     print_r($data);
+//     print_r($data[0]->address);
+//     return "Xin chao cac ban";
+// });
 
 Auth::routes();
 
